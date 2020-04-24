@@ -15,7 +15,7 @@ public:
     void setImage(string const &title);
     const string& getImage() const;
 
-    void print();
+    void print() const;
 
     ButtonWithImage& operator = (ButtonWithImage const &buttonWithImage);
 };

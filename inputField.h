@@ -15,7 +15,7 @@ public:
     void setText(string const &text);
     const string& getText() const;
 
-    void print();
+    void print() const;
 
     InputField& operator = (InputField const &inputField);
 };

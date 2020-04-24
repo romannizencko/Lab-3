@@ -24,7 +24,7 @@ const string& Button :: getTitle() const
     return title;
 }
 
-void Button :: print()
+void Button :: print() const
 {
     cout << "\nOwner: " << this -> owner << "\nSize: " << this -> sizeGraphicElement;
     cout << "\nTitle: " << this -> title;

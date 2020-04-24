@@ -24,7 +24,7 @@ const string& InputField :: getText() const
     return text;
 }
 
-void InputField :: print()
+void InputField :: print() const
 {
     cout << "\nOwner: " << this -> owner << "\nSize: " << this -> sizeGraphicElement;
     cout << "\nHeader: " << this -> text;

@@ -24,7 +24,7 @@ const string& ButtonWithImage :: getImage() const
     return image;
 }
 
-void ButtonWithImage :: print()
+void ButtonWithImage :: print() const
 {
     Button :: print();
     cout << "\nImage: " << this -> image;

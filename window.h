@@ -15,7 +15,7 @@ public:
     void setHeader(string const &header);
     const string& getHeader() const;
 
-    void print();
+    void print() const;
 
     Window& operator = (Window const &window);
 };

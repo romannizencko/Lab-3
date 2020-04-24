@@ -24,7 +24,7 @@ const string& Window :: getHeader() const
     return header;
 }
 
-void Window :: print()
+void Window :: print() const
 {
     cout << "\nOwner: " << this -> owner << "\nSize: " << this -> sizeGraphicElement;
     cout << "\nHeader: " << this -> header;

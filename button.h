@@ -15,7 +15,7 @@ public:
     void setTitle(string const &title);
     const string& getTitle() const;
 
-    void print();
+    void print() const;
 
     Button& operator = (Button const &button);
 };
